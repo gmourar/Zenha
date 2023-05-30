@@ -15,14 +15,19 @@ export const Container = styled.View`
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
-    width: 90%;
+    width: 95%;
+    background-color: #fcba03;
+    borderTopLeftRadius: 25px;
+    borderTopRightRadius: 25px;
+    border: 3px solid black; 
+    
     
      
 ` 
 
 
 export const Title = styled.Text`
-    color: black;
+    color: #fcba03;
     font-size:30px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -30,14 +35,14 @@ export const Title = styled.Text`
 `
 
 export const Input = styled.TextInput`
-    border: 2px solid #000; 
+    border: 2px solid black; 
     margin-bottom: 20px;
     padding: 15px 30px;
-    color: #000;
+    color: #fcba03;
     font-size: 18px;
     border-radius: 9px;
-    width: 90%;
-
+    width: 75%;
+    
     
 
 `
@@ -47,17 +52,17 @@ export const  ButtonSubmit = styled.TouchableOpacity`
     
     font-size: 18px;
     border-radius: 9px;
-    width: 90%;
-    background-color: #000;
+    width: 80%;
+    background-color: black;
     align-items: center;
-    
+    margin-top: 5%;
 `
 
 
 export const TextSubmit = styled.Text`
     color: #fcba03;
     font-size: 15px;
-    font-wex'ight: bold;
+    font-weight: bold;
 `
 
 

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { KeyboardView, Container, Title, Input, ButtonSubmit, TextSubmit } from './style';
 import Header from '../../components/Header';
 
+
 function Signin() {
   const [isLoginValidated, setIsLoginValidated] = useState(false);
   const [username, setUsername] = useState('');
@@ -27,7 +28,7 @@ function Signin() {
     <KeyboardView>
       <Header />
       <Container>
-        <Title>Login</Title>
+        
 
         <Input
           name="username"
